@@ -37,11 +37,11 @@ export default function LandingPage() {
         {
           name: "Testimonials",          id: "testimonials"},
         {
-          name: "Contact",          id: "contact"},
+          name: "Contact",          id: "/contact"},
       ]}
       brandName="Liza Flowers"
       button={{
-        text: "Book Now",        href: "#contact"
+        text: "Book Now",        href: "/contact"
       }}
     />
   </div>
@@ -54,7 +54,7 @@ export default function LandingPage() {
         {
           text: "View Collection",          href: "#products"},
         {
-          text: "Book Consultation",          href: "#contact"},
+          text: "Book Consultation",          href: "/contact"},
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/young-woman-drinking-coffee-1774371711067-7933f7fb.png"
       avatars={[
@@ -135,17 +135,6 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="contact" data-section="contact">
-      <ContactCenter
-      useInvertedBackground={false}
-      background={{
-        variant: "sparkles-gradient"}}
-      title="Let’s Create Something Beautiful"
-      description="Interested in custom arrangements for your event or studio needs? Get in touch today."
-      tag="Get in Touch"
-    />
-  </div>
-
   <div id="footer" data-section="footer">
       <FooterBase
       columns={[
@@ -156,7 +145,7 @@ export default function LandingPage() {
             {
               label: "Collection",              href: "#products"},
             {
-              label: "Contact",              href: "#contact"},
+              label: "Contact",              href: "/contact"},
           ],
         },
         {
