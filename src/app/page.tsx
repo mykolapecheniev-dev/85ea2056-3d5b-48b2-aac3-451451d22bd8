@@ -56,7 +56,7 @@ export default function LandingPage() {
         {
           text: "Book Consultation",          href: "#contact"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/beautiful-different-colored-flowers_23-2147697830.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/young-woman-drinking-coffee-1774371711067-7933f7fb.png"
       avatars={[
         {
           src: "http://img.b2bpic.net/free-photo/portrait-cute-cheerful-africanamerican-girl-showing-thumbsup-support-like-agree-with-y_1258-138554.jpg",          alt: "Customer Review"},
